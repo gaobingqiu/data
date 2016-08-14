@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#2d3a51"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/button_add"
+        android:textColor="#fffffb"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left|center"
+        android:hint="@string/userName" />
+    <EditText
+        android:id="@+id/Myemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left|center"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#08951f"
+            android:gravity="center" 
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/button_save"/>
+
+        <Button
+            android:id="@+id/negativeButton"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20.0dip"
+            android:background="#7e93ae"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/button_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

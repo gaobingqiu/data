@@ -4,5 +4,18 @@
     <string name="app_name">data</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="button_add">新增数据</string>
+    <string name="button_fetch">查询全部</string>
+    <string name="button_update">更新记录</string>
+    <string name="button_delete">删除记录</string>
+    <string name="user_id">id</string>
+    <string name="user_name">姓名</string>
+    <string name="user_email">Email</string>
+    
+    <!-- dialog -->
+    <string name="title">用户记录</string>
+    <string name="userName">用户名</string>
+    <string name="email">邮箱</string>
+    <string name="button_save">保存</string>
+    <string name="button_cancel">取消</string>
 </resources>
